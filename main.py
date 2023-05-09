@@ -22,5 +22,3 @@ if __name__ == "__main__":
 
         pygame.time.wait(5)
         pygame.display.update()
-        pygame.time.wait(5)
-        pygame.display.update()
