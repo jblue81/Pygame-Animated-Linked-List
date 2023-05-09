@@ -7,8 +7,6 @@ class Node:
     def get_data(self):
         return self.data
 
-
-
 class LinkedList():
     def __init__(self):
         self.head = None
@@ -33,8 +31,3 @@ class LinkedList():
         while(temp != None):
             print(f"{counter}.Node.data = {temp.data}")
             temp = temp.next
-
-        
-    
-
-    
