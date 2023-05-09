@@ -19,8 +19,6 @@ if __name__ == "__main__":
         x,y = pygame.mouse.get_pos()
         animated_list.move_linked_list_to_position(x,y)
 
-
-
         pygame.time.wait(5)
         pygame.display.update()
         pygame.time.wait(5)
