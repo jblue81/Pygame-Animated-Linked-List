@@ -5,7 +5,8 @@ from animated_list import AnimatedList
 
 if __name__ == "__main__":
     screen = pygame.display.set_mode((WITDH, HEIGHT))
-
+    
+    #you can change these functions
     growth_rate_function=lambda x: x
     pos_modifier_function=lambda x,y,z : (0,0)
 
