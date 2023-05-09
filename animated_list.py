@@ -14,15 +14,11 @@ class AnimatedList(LinkedList):
         self.speed = 0
         self.counter = 0
         self.create_nodes(num_nodes)
-        
-
-
     
     def create_nodes(self, num_nodes):
         for i in range(num_nodes):
             cords = [WITDH/2 ,(HEIGHT/2)+i]
             self.add_node(cords)
-
 
     def _animation_update(self, node, node_size_increase=0):
         """
@@ -75,8 +71,3 @@ class AnimatedList(LinkedList):
         self.head.data[0] = x
         self.head.data[1] = y
         self.animation_update()
-
-
-
-
-
