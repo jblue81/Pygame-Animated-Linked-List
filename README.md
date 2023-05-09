@@ -20,13 +20,11 @@ This project uses the LinkedList class to provide visual representation of the l
 This project aims to create an animated graphic using the linked list data structure in the Python language. The project files consist of the following:
 
 ## File Description:
+| Value | Description |
 | ------ | ----------- |
 | main.py | This file is the main file where the process of creating the animated graphic takes place. |
-
 | constants.py | This file is a file where constants are defined. These constants include various values used in the process of creating the graphic. |
-
 | linked_list.py | This file is a file where the linked list data structure is defined. This data structure is used in the process of creating the graphic. |
-
 | animated_list.py | This file is a file where the class for creating an animated graphic using the linked list data structure is defined. |
 
 ## Customization:
