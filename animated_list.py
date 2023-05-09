@@ -1,3 +1,10 @@
+"""
+This is a Python script that animates a linked list using Pygame.
+It defines the AnimatedList class, which inherits from the LinkedList class.
+The class contains methods for creating nodes, updating node positions for animation purposes,
+and shifting/moving the entire linked list.
+"""
+
 from linked_list import LinkedList
 from constants import *
 import pygame
