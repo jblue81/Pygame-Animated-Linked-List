@@ -39,7 +39,7 @@ The following options are available to change the connections and positions of t
 | draw_links | Determines whether the connections should be drawn or not. By default, it is set to `True`. |
 | draw_nodes | Determines whether the nodes should be drawn or not. By default, it is set to `True`. |
 
-## Lists Customization Details
+## Customization Details
 __`To customize this project, you can follow these steps:`__
 
 + Change the constants in the __constants.py__ file. For example, you can change the growth rate of the nodes `GROWTH_RATE` or change the `NODE_FILL` constant to draw nodes instead of filling them.
