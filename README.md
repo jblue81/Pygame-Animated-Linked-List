@@ -35,8 +35,7 @@ The following options are available to change the connections and positions of t
 | Value | Description |
 | ------ | ----------- |
 | growth_rate_function | Takes a function to determine the growth rate of the nodes. By default, the `x/50` function is used. |
-| pos_modifier_function | Takes a function to determine the position of the nodes. By default, the `math.cos(z)*50` and `math.sin(z2)*50` functions are used. 
-(__It provides extra movement to the node by taking the node position data and adding the data returned from a specially defined function to it, thus allowing for customized movement.__) |
+| pos_modifier_function | Takes a function to determine the position of the nodes. By default, the `math.cos(z)*50` and `math.sin(z2)*50` functions are used. (__It provides extra movement to the node by taking the node position data and adding the data returned from a specially defined function to it, thus allowing for customized movement.__) |
 | draw_links | Determines whether the connections should be drawn or not. By default, it is set to `True`. |
 | draw_nodes | Determines whether the nodes should be drawn or not. By default, it is set to `True`. |
 
