@@ -37,9 +37,9 @@ The following options are available to change the connections and positions of t
 ## Lists Customization Details
 __`To customize this project, you can follow these steps:`__
 
-+ Change the constants in the constants.py file. For example, you can change the growth rate of the nodes (GROWTH_RATE) or change the NODE_FILL constant to draw nodes instead of filling them.
-+ Customize the growth rate, position, and connections of the nodes by modifying the init function of the AnimatedList class. For example, you can change the growth_rate_function and pos_modifier_function functions to adjust the position and growth rate of the nodes.
-+ Customize the movement of the nodes by modifying the animation_update function of the AnimatedList class. This function allows the connections of the nodes to be drawn and their positions to be updated.
++ Change the constants in the constants.py file. For example, you can change the growth rate of the nodes `GROWTH_RATE` or change the `NODE_FILL` constant to draw nodes instead of filling them.
++ Customize the growth rate, position, and connections of the nodes by modifying the init function of the AnimatedList class. For example, you can change the `growth_rate_function` and `pos_modifier_function` functions to adjust the position and growth rate of the nodes.
++ Customize the movement of the nodes by modifying the `animation_update` function of the AnimatedList class. This function allows the connections of the nodes to be drawn and their positions to be updated.
 
 ### Contributing
 If you want to contribute to the project, please open an issue or a pull request on the project's GitHub repository.
